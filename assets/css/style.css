@@ -2,8 +2,12 @@
 
 .link_color {
   color: #01a6a4;
+  transition:0.3s;
 }
-
+.link_color:hover {
+  color:#01bfbd;
+}
+  
 .wrapper {
   padding-bottom: 31px;
 }
