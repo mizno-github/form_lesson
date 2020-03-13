@@ -2,7 +2,6 @@
 
 .link_color {
   color: #01a6a4;
-  transition:0.3s;
 }
 .link_color:hover {
   color:#01bfbd;
@@ -274,7 +273,7 @@ body {
 }
 
 
-.free-comtent {
+.free-comment {
   height: 100px;
   resize: none;
   width: 100%;
@@ -324,7 +323,7 @@ body {
 }
 
 .link-style:hover {
-  display:inline;
+  display: inline;
   border-bottom: 1px solid #ececec;
   border-bottom-color: #01bfbd;
 }
