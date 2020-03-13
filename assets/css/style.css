@@ -19,6 +19,13 @@
   border: 1px solid #d9d9d9;
   border-radius: 3px;
   margin-bottom: 20px;
+  outline:none;
+}
+
+.register__form_box:focus{
+  border-color: rgba(59, 133, 133, .4);
+  box-shadow: 0 0 0 2px rgba(1, 191, 189, .1);
+  background-color:#fff;
 }
 
 .check::after {
@@ -270,6 +277,17 @@ body {
   margin-bottom: 21px;
 }
 
+
+.register__form_button:hover {
+  background-color: #01a6a4;
+}
+.register__form_button:active {
+  background-color: #fff;
+  color: #01bfbd;
+  border: 1px #d9d9d9 solid;
+  height: 50px;
+}
+
 .register__form_button {
   background-color: #01bfbd;
   color: #fff;
@@ -281,17 +299,7 @@ body {
   line-height: normal;
   transition: 0.2s;
   outline: 0;
-}
-
-.register__form_button:hover {
-  background-color: #01a6a4;
-}
-
-.register__form_button:active {
-  background-color: #fff;
-  color: #01bfbd;
-  border: 1px #d9d9d9 solid;
-  height: 50px;
+  border-radius:4px;
 }
 
 .agreement_text {
@@ -309,4 +317,10 @@ body {
 .form__end_text {
   margin-bottom: 9px;
   font-size: 12px;
+}
+
+.link-style:hover {
+  display:inline;
+  border-bottom: 1px solid #ececec;
+  border-bottom-color: #01bfbd;
 }
