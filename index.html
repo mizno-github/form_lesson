@@ -10,6 +10,99 @@
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
-
+    <div class="wrapper">
+      <div class="form__set">
+        <section class="login">
+          <div class="login__title_style">
+            <h1 class="login__title">アカウント作成</h1>
+          </div>
+          <div class="login__link">
+            <a class="login__link_style Face_motion" href="#">
+              <div>Facebookでスタート</div>
+            </a>
+            <a class="login__link_style " href="#">
+              <div>Googleでスタート</div>
+            </a>
+          </div>
+          <p class="login__important">タイムラインへ投稿を行うことや、アカウント情報を伝えることはありません。</p>
+        </section>
+        <section>
+          <div class="register__title_bar">
+            <p class="register__title">アカウント情報</p>
+          </div>
+          <form class="register" action="o" method="post">
+            <div class="register__name_parent">
+              <div class="register__name">
+                <p class="form__text check">名字</p>
+                <input class="register__form_box" type="text" required>
+              </div>
+              <div class="register__name">
+                <p class="form__text check">名前</p>
+                <input class="register__form_box" type="text" name="name" required>
+              </div>
+            </div>
+            <p class="form__text">性別</p>
+            <div class="gender">
+              <input type="radio" name="1" id="gender__man">
+              <label class="gender__type margin-left" for="gender__man">男性</label>
+              <input type="radio" name="1" id="gender__woman">
+              <label class="gender__type" for="gender__woman">女性</label>
+              <input type="radio" name="1" id="gender__other">
+              <label class="gender__type" for="gender__other">その他</label>
+            </div>
+            <p class="form__text">出身</p>
+            <div class="select_mark">
+              <select class="register__form_box selectbox" name="ken">
+                <option value="tokyo">東京</option>
+                <option value="chiba">千葉</option>
+                <option value="saitama">埼玉</option>
+                <option value="kanagawa">神奈川</option>
+              </select>
+            </div>
+            <p class="form__text check">Eメール</p>
+            <input class="register__form_box" placeholder="ex) hoge@example.com" type="email" required>
+            <p class="form__text">電話番号</p>
+            <input class="register__form_box" placeholder="ex) 09012345678" type="number">
+            <p class="form__text check">パスワード</p>
+            <input class="register__form_box" type="password" required>
+            <p class="form__text check">パスワード(確認用)</p>
+            <input class="register__form_box" type="password" required>
+            <p class="form__text">希望コース</p>
+            <div class="course__form">
+              <div class="corse__style">
+                <input class="checkbox__none" id="front-end" type="checkbox">
+                <label class="course__form__type" for="front-end">
+                  <span class="course__form__text">フロントエンド</span>
+                </label>
+              </div>
+              <div class="corse__style">
+                <input class="checkbox__none" id="Back-end" type="checkbox">
+                <label class="course__form__type" for="Back-end">
+                  <span class="course__form__text">バックエンド</span>
+                </label>
+              </div>
+              <div class="corse__style">
+                <input class="checkbox__none" id="app" type="checkbox">
+                <label class="course__form__type"for="app">
+                  <span class="course__form__text">アプリ</span>
+                </label>
+              </div>
+            </div>
+            <p class="form__text">備考</p>
+            <textarea  class="register__form_box free-comtent" placeholder="何かあればご記入ください"></textarea>
+            <input class="form__text register__form_box register__form_button" type="submit" value="アカウント作成">
+          </form>
+          <p class="agreement_text">アカウントを作成することにより、<a class="link_color" href="#">利用規約</a>と<a class="link_color" href="#">プライバシーポリシー</a>に同意するものとします。</p>
+        </div>
+      </section>
+      <section class="form__end">
+        <p class="form__end_text">すでにアカウントをお持ちですか？
+          <a class="link_color " href="#">ログイン</a>
+        </p>
+        <p class="form__end_text">
+          <a class="link_color" href="#">認証メールが届きませんか？</a>
+        </p>
+      </section>
+    </div>
   </body>
 </html>
